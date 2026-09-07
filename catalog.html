@@ -10,11 +10,15 @@
   </head>
 
   <body>
-    <header class="hero">
-      <h1>☕ Кав'ярня</h1>
-      <p>Смачна кава та солодощі щодня</p>
-      <button onclick="scrollToMenu()">Переглянути меню</button>
-    </header>
+<nav class="navbar">
+    <div class="logo">☕ Coffee Shop</div>
+
+    <div class="nav-buttons">
+          <a href="./index.html">Головна</a>
+  <a href="./catalog.html">Меню</a>
+  <a href="./catalog.html#cart">Кошик</a>
+    </div>
+</nav>
 
     <main>
       <section id="menu" class="menu-section coffee-section">
@@ -29,7 +33,7 @@
         <div class="products" id="sweetsProducts"></div>
       </section>
 
-      <section class="cart-section">
+      <section class="cart-section" id="cart">
         <div class="cart-header">
           <h2>🛒 Кошик</h2>
           <span id="cartCount">0 товарів</span>
@@ -46,7 +50,7 @@
 
     <footer>
       <p>☕ Кав'ярня</p>
-      <p>📞 +380 00 000 00 00</p>
+      <p>📞 +380 00000000 </p>
       <p>📍 Україна</p>
     </footer>
 
