@@ -38,7 +38,7 @@ const menu = {
     {
       name: "Карамельна кава",
       price: 85,
-      img: "https://images.unsplash.com/photo-1596952954289-7b1f3f2d8f03?w=600",
+      img: " https://images.unsplash.com/photo-1779425082269-48ebb43db86a?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D ",
     },
     {
       name: "Ванільне лате",
