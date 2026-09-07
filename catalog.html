@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кав'ярня</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+    <h1>☕ Кав'ярня</h1>
+    <p>Смачна кава та солодощі щодня</p>
+    <button onclick="scrollToMenu()">Переглянути меню</button>
+</header>
+
+<main>
+
+<section id="menu" class="menu-section coffee-section">
+    <h2>☕ Кава</h2>
+
+    <div class="products">
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=600">
+            <h3>Еспресо</h3>
+            <p>45 грн</p>
+            <button onclick="addToCart('Еспресо',45)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1551030173-122aabc4489c?w=600">
+            <h3>Американо</h3>
+            <p>50 грн</p>
+            <button onclick="addToCart('Американо',50)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?w=600">
+            <h3>Капучино</h3>
+            <p>65 грн</p>
+            <button onclick="addToCart('Капучино',65)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600">
+            <h3>Лате</h3>
+            <p>70 грн</p>
+            <button onclick="addToCart('Лате',70)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?w=600">
+            <h3>Мокачино</h3>
+            <p>75 грн</p>
+            <button onclick="addToCart('Мокачино',75)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1572119865084-43c285814d63?w=600">
+            <h3>Раф</h3>
+            <p>80 грн</p>
+            <button onclick="addToCart('Раф',80)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600">
+            <h3>Флет Вайт</h3>
+            <p>75 грн</p>
+            <button onclick="addToCart('Флет Вайт',75)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1596952954289-7b1f3f2d8f03?w=600">
+            <h3>Карамельна кава</h3>
+            <p>85 грн</p>
+            <button onclick="addToCart('Карамельна кава',85)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1595434091143-b375ced5fe5c?w=600">
+            <h3>Ванільне лате</h3>
+            <p>85 грн</p>
+            <button onclick="addToCart('Ванільне лате',85)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1462917882517-e150004895fa?w=600">
+            <h3>Айс-лате</h3>
+            <p>80 грн</p>
+            <button onclick="addToCart('Айс-лате',80)">Додати</button>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="menu-section sweets-section">
+    <h2>🍰 Солодощі</h2>
+
+    <div class="products">
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600">
+            <h3>Чізкейк</h3>
+            <p>95 грн</p>
+            <button onclick="addToCart('Чізкейк',95)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600">
+            <h3>Пончик</h3>
+            <p>45 грн</p>
+            <button onclick="addToCart('Пончик',45)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600">
+            <h3>Печиво</h3>
+            <p>35 грн</p>
+            <button onclick="addToCart('Печиво',35)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1519869325930-281384150729?w=600">
+            <h3>Капкейк</h3>
+            <p>55 грн</p>
+            <button onclick="addToCart('Капкейк',55)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600">
+            <h3>Брауні</h3>
+            <p>70 грн</p>
+            <button onclick="addToCart('Брауні',70)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600">
+            <h3>Круасан</h3>
+            <p>50 грн</p>
+            <button onclick="addToCart('Круасан',50)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600">
+            <h3>Панакота</h3>
+            <p>75 грн</p>
+            <button onclick="addToCart('Панакота',75)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?w=600">
+            <h3>Яблучний пиріг</h3>
+            <p>65 грн</p>
+            <button onclick="addToCart('Яблучний пиріг',65)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1464195244916-405fa0a82545?w=600">
+            <h3>Полуничний тарт</h3>
+            <p>85 грн</p>
+            <button onclick="addToCart('Полуничний тарт',85)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600">
+            <h3>Тірамісу</h3>
+            <p>90 грн</p>
+            <button onclick="addToCart('Тірамісу',90)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1599785209707-a456fc1337bb?w=600">
+            <h3>Крендель</h3>
+            <p>45 грн</p>
+            <button onclick="addToCart('Крендель',45)">Додати</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600">
+            <h3>Медовик</h3>
+            <p>80 грн</p>
+            <button onclick="addToCart('Медовик',80)">Додати</button>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="cart-section">
+    <div class="cart-header">
+        <h2>🛒 Кошик</h2>
+        <span id="cartCount">0 товарів</span>
+    </div>
+
+    <div id="cartItems"></div>
+
+    <div class="cart-bottom">
+        <h3>Разом: <span id="total">0</span> грн</h3>
+        <button class="order-btn" onclick="makeOrder()">Замовити</button>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>☕ Кав'ярня</p>
+    <p>📞 +380 00 000 00 00</p>
+    <p>📍 Україна</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+</body>
+
+</html>
